@@ -6,6 +6,7 @@ name: PR Check
 # clean (no new warnings/errors) and still builds.
 
 on:
+  workflow_dispatch:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
   # Warm the SDK/pub caches in master's scope (see warm-cache job below).
