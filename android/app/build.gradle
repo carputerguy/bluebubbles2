@@ -29,7 +29,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.bluebubbles.messaging"
+    namespace "com.bluebubbles.messaging.2"
     compileSdk 36
     ndkVersion = "28.2.13676358"
 
@@ -43,7 +43,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.bluebubbles.messaging"
+        applicationId "com.bluebubbles.messaging.2"
         minSdkVersion 26
         targetSdkVersion 35
         versionCode 20002000 + flutterVersionCode.toInteger()
